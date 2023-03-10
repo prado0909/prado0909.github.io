@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #09080d;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Image/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 70px;
+}
+
+.menu_container .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu_container .navbar ul li a {
+    font-size: 30px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+}
+
+.menu_container .navbar ul li a:hover {
+    color: rgb(155, 1, 1);
+}
+
+#menu {
+    display: none;
+}
+
+.menu_icono {
+    width: 25px;
+}
+
+.menu_container label {
+    cursor: pointer;
+    display: none;
+}
+
+.header_txt {
+    width: 50%;
+}
+
+.header_txt h1 {
+    font-size: 105px;
+    line-height: 110px;
+    color: #fefcfb;
+    margin-bottom: 15px;
+}
+
+.header_txt p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 35px;
+}
+
+.btn_1 {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: rgb(155, 1, 1);
+    color: #fefcfb;
+    border-radius: 25px;
+    font-size: 22px;
+}
+
+.btn_1:hover {
+    background-color: rgb(108, 1, 1);
+}
+
+.direction_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.direction_container p {
+    color: #fefcfb;
+    font-size: 16px;
+}
+
+.about_container {
+    padding: 100px 200px;
+    display: flex;
+}
+
+.about_txt {
+    width: 50%;
+}
+
+.about_img {
+    width: 50%;
+}
+
+.about_img img {
+    width: 600px;
+}
+
+
+h2 {
+    font-size: 70px;
+    color: #fefcfb;
+    margin-bottom: 15px;
+}
+
+.about_txt p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 35px;
+}
+
+.information_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.Information {
+    display: flex;
+    align-items: center;
+}
+
+.information_container h3 {
+    font-size: 70px;
+    color: #fefcfb;
+
+}
+
+.Information p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-left: 10px;
+}
+
+.car {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(image/rx7.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.car_2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(image/dodge.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.car_3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(image/miura.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.car_4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(image/gt40.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.car_5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(image/supra.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.txt {
+    position: relative;
+}
+
+.txt span {
+    color: rgb(155, 1, 1);
+    font-size: 35px;
+}
+
+.txt h3 {
+    color: #fefcfb;
+    font-size: 35px;
+}
+
+.txt p {
+    font-size: 16px;
+    color: #e0e0e0;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    rotate: 270deg;
+}
+
+.footer_container {
+    padding: 100px 0 0 0;
+}
+
+.footer_content {
+    display: flex;
+}
+
+.footer_form {
+    width: 50%;
+}
+
+.footer_form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    margin-left: 600px;
+}
+
+.campo {
+    background-color: #201f23;
+    padding: 17px 35px;
+    outline: none;
+    color: #7e7e7e;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.campo::placeholder {
+    color: #7e7e7e;
+}
+
+.btn_2 {
+    padding: 17px 35px;
+    border: 2px solid rgb(155, 1, 1);
+    background-color: rgb(155, 1, 1);
+    color: #fefcfb;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.footer_txt h3 {
+    color:#fefcfb;
+    font-size: 35px;
+    margin: 0 100px 20px 0;
+}
+
+.footer_txt p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.footer_2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+@media(max-width:991px) {
+    .menu_container {
+        padding: 30px;
+    }
+
+    .menu_container label {
+        display: initial;
+    }
+
+    .menu_container .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #09080d;
+        display: none;
+    }
+
+    .menu_container .navbar ul li {
+        width:100%;
+    }
+
+    #menu_container:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header_content {
+        padding: 100px 30px;
+    }
+
+    .header_txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_txt h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .direction_container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .direction_container p {
+        margin-bottom: 10px;
+    }
+
+    .about_container {
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+    }
+
+    .about_txt {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .about_img {
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+
+    .about_img img {
+        width: 300px;
+    }
+
+    .information_container {
+        padding: 30px;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    .car {
+        flex-direction: column;
+    }
+
+    .footer_container {
+        padding: 30px 30px 0 30px;
+    }
+
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .footer_form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_txt h3 {
+        margin: 0 0 20px 0;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+
+    .footer_2 p {
+        text-align: center;
+    }
+
+}
